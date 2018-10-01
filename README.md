@@ -11,12 +11,14 @@ We assume that you have following softwares installed in your system in order to
 The gold-standard data from BioCreative shared task has issues in terms of word boundary, the preprocessing was used to resolve such issues. The caption input should be accompanied with full-text documents for the system to collect the correct-boundaries tokens.
 
 ### Named entity recognition and NERsuite models
-* [NERsuite models](http://bionlp-www.utu.fi/BC_VI/models)
+* [NERsuite models](http://bionlp-www.utu.fi/BC_VI/recognitionmodels)
 
 ### Normalization system
-* [pickle files](http://bionlp-www.utu.fi/BC_VI/pickle)
-* [simstring files](http://bionlp-www.utu.fi/BC_VI/simstring)
-* [mapping files](http://bionlp-www.utu.fi/BC_VI/map_Files)
+* [pickle files](http://bionlp-www.utu.fi/BC_VI/normalization/pickle)
+* [simstring files](http://bionlp-www.utu.fi/BC_VI/normalization/simstring)
+* [mapping files](http://bionlp-www.utu.fi/BC_VI/normalization/map_files)
+* [source data](http://bionlp-www.utu.fi/BC_VI/normalization/src_data)
+* [canonical data](http://bionlp-www.utu.fi/BC_VI/normalization/data)
 
 ### Citation
 If you have used data, models or parts of our systems, please kindly cite our following article.
