@@ -20,7 +20,7 @@ The gold-standard data from BioCreative shared task has issues in terms of word 
 
 ### Citation
 If you have used data, models or parts of our systems, please kindly cite our following article.
-[Suwisa Kaewphan, Kai Hakala, Niko Miekka, Tapio Salakoski, Filip Ginter; Wide-scope biomedical named entity recognition and normalization with CRFs, fuzzy matching and character level modeling, Database, Volume 2018, 1 January 2018, bay096]https://doi.org/10.1093/database/bay096)
+[Suwisa Kaewphan, Kai Hakala, Niko Miekka, Tapio Salakoski, Filip Ginter; Wide-scope biomedical named entity recognition and normalization with CRFs, fuzzy matching and character level modeling, Database, Volume 2018, 1 January 2018, bay096](https://doi.org/10.1093/database/bay096)
 
 ### Authors and Contributors
 Department of Future Technologies, University of Turku, Finland
