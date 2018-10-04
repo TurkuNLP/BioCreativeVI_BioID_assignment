@@ -14,12 +14,14 @@ The gold-standard data from BioCreative shared task has issues in terms of word 
 * [NERsuite models](http://bionlp-www.utu.fi/BC_VI/recognition/models)
 
 ### Normalization system
+Our normalization system is based on external tools, including Simstring and Solr. We assume that you have installed those mentioned. 
 * [pickle files](http://bionlp-www.utu.fi/BC_VI/normalization/pickle)
+* [mapping files](http://bionlp-www.utu.fi/BC_VI/normalization/map_files) 
 * [simstring files](http://bionlp-www.utu.fi/BC_VI/normalization/simstring)
-* [mapping files](http://bionlp-www.utu.fi/BC_VI/normalization/map_files)
 * [source data](http://bionlp-www.utu.fi/BC_VI/normalization/src_data)
 * [canonical data](http://bionlp-www.utu.fi/BC_VI/normalization/data)
 * [solr gene/protein data](http://bionlp-www.utu.fi/BC_VI/normalization/solr)
+For gene and proteins, the mapping files are too large and too slow for mapping using the python dictionary as other entity types. So we create Solr core containing the genes/proteins in canonical form, associated taxonomy identifier, symbol type and NCBI Entrez Gene/Uniprot identifiers. This folder contains Entrez Gene and Uniprot mapping files needed for process_solr.py to add and index the entries to solr core. Prior to running the code, you need to create Solr core containing 4 data types: entrezgene_id (int), symbol (text_ws), type (int) and ncbitax_id (int). 
 
 ### Citation
 If you have used data, models or parts of our systems, please kindly cite our following article.
